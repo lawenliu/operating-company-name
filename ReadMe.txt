@@ -10,11 +10,15 @@ EXPECTED GRADE: A.
 HomeWork Code: https://github.com/lawenliu/operating-company-name
 (Participation) Working With An Array: https://github.com/lawenliu/angular-hello-world
 (Participation) Reddit App: https://github.com/lawenliu/angular-reddit
-(Participation) React Product Hunt: https://github.com/lawenliu/video-react (I am using this package into my current working project)
 
 DESCRIBE APPLICATION INTENT:
  This is the application to deal with company name array in different ways.
- Some features need change original CSS to see the result. Such as the question 5, which asks to randomly select color class. But color class only set the "background-image", no effect on the UI result, we have to check the content css in developer tool. So I add the text color information in class to show the difference.
+   [REVERSE] reverse the company name list
+   [REMOVE SYMBOLS & NUMBERS] remove the symbols and numbers in each company name
+   [SORT ALPHABETICALLLY] sort the company name list based on alphabetically
+   [TOGGLE COLOR] toggle the background of the company name list
+   [RANDOM COLOR] randomly to select the one of the class "red", "blue", and "gold" to use on each company name
+   [CONVERT TO INLINE] display the company names as INLINE style
  No add ons
  All features are working
 

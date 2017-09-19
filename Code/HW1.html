@@ -60,12 +60,12 @@
         position: relative;
     }
 
-    .startups-container-gray {
-        background-color: gray !important;
+    .startups-container-pink {
+        background-color: pink !important;
     }
 
     .startups-container {
-      background-color: transparent;
+      background-color: gray;
     }
 
     .red {
@@ -160,10 +160,10 @@
     function toggleBkColor() {
 				// Here we can just change the attribute "background-color" of ".startups-container" to "transparent" directly
 				// But we also can try different way as following to change whole class name.
-        if ($(".startups-container").hasClass("startups-container-gray")) {
-            $(".startups-container").removeClass("startups-container-gray");
+        if ($(".startups-container").hasClass("startups-container-pink")) {
+            $(".startups-container").removeClass("startups-container-pink");
         } else {
-            $(".startups-container").toggleClass("startups-container-gray");
+            $(".startups-container").toggleClass("startups-container-pink");
         }
     }
     // 5.CREATE A FUNCTION THAT RANDOMLY SELECTS A COLOR CLASS AND APPLIES IT TO EACH COMPANY NAME WHEN THE COLOR BUTTON IS CLICKED
